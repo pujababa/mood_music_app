@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Based Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎵 Mood Based Music Recommendation 🎵</h1>
+    <select id="moodSelect" onchange="loadMusic()">
+        <option value="">Select Your Mood</option>
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="chill">😎 Chill</option>
+        <option value="energetic">⚡ Energetic</option>
+        <option value="romantic">❤️ Romantic</option>
+    </select>
+    <iframe id="spotifyPlayer" class="spotify" src="" allow="encrypted-media"></iframe>
+    <!-- JS Link -->
+<script src="script.js"></script>
+</body>
+</html>
